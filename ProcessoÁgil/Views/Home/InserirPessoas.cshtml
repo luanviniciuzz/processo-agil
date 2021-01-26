@@ -1,0 +1,20 @@
+@model Pessoa;
+
+@{
+    ViewData["Title"] = "Inserir Pessoas";
+}
+<h2>Inserir Pessoas</h2>
+<form method="POST" style="margin-left: 40%">
+    <p>
+        <label asp-for="Nome">Nome:</label>
+        <input asp-for="Nome" />
+    </p>
+    <p>
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" placeholder="example@email.com" />
+    </p>
+    
+    <p>
+        <input type="submit" value="Enviar" />
+    </p>
+</form>

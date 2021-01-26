@@ -1,0 +1,21 @@
+@model List<Pessoa>
+    
+<h2>Listagem de Pessoas</h2>
+<table class="content-table">
+   <thead>
+       <tr>
+           <th>Nome</th>
+           <th>Email</th>
+       </tr>
+   </thead>
+   <tbody>
+       @foreach (Pessoa pessoa in Model)
+            {
+            <tr class="active-row">
+                <td>@pessoa.Nome</td>
+                <td>@pessoa.Email</td>           
+                
+            </tr> 
+            }
+   </tbody>
+</table>
