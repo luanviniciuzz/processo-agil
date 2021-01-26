@@ -4,7 +4,7 @@
 # Lembrete:
 Pesquisar depois
 
-### Multiplos Views é uma Model:
+### Multiplos Views em uma Model:
 https://www.c-sharpcorner.com/UploadFile/ff2f08/multiple-models-in-single-view-in-mvc/
 
 ### Converter .cshtml para .aspx
